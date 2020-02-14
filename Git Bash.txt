@@ -1,0 +1,37 @@
+Git Bash
+_______
+
+1. touch index.html
+
+2. git init
+
+3. git config --global user.name 'Swarajya'
+    git config --global user.email 'sj@psl.com'
+
+4. git status
+
+5. git add .
+    git commit -m 'changes made'
+
+6. touch .gitignore	//files can't be added to staging area
+		// '/' for directory
+
+7. git branch login
+    git checkout login	//switched to branch
+    git checkout master	//switched to main branch
+
+8. Remote Repository
+    git remote		//to display GitHub repo if any
+    git remote add origin https://github.com/jadhavswarajya7111996/myappsample.git
+    git remote 
+    git push -u origin master
+
+9. git add .
+    git push 		//pushed to GitHub
+    git pull		//upto date
+
+10. Open GitBash in other folder to clone project
+     git clone link.git
+
+____________________________________________________________________________
+
